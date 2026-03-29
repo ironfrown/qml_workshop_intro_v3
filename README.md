@@ -1,10 +1,10 @@
-## An introduction to QML in PennyLane and PyTorch (October 2025)
+## An introduction to QML with PennyLane and PyTorch (April 2026)
 - **Author:** [Jacob Cybulski](https://jacobcybulski.com/) ([LinkedIn](https://www.linkedin.com/in/jacobcybulski/)), *Enquanted*
 - **Collaboration with:**
-      [Sebastian Zając](https://sebastianzajac.pl/) ([LinkedIn](https://www.linkedin.com/in/sebastianzajac/)),
-      Tomasz Rybotycki ([LinkedIn](https://www.linkedin.com/in/tomasz-rybotycki-01192582/)) and
+      Tomasz Rybotycki ([LinkedIn](https://www.linkedin.com/in/tomasz-rybotycki-01192582/)),
+      [Sebastian Zając](https://sebastianzajac.pl/) ([LinkedIn](https://www.linkedin.com/in/sebastianzajac/)), and
       Paweł Gora ([LinkedIn](https://www.linkedin.com/in/pawelgora/))
-- **Associated with:** [QPoland](https://qworld.net/qpoland/) and [Quantum AI Foundation](https://www.qaif.org/)
+- **Associated with:** [QPoland](https://qworld.net/qpoland/) and [Fundacja Quantum AI](https://www.qaif.org/)
 - **Aims:** To explore the creation and use of quantum machine learning models in PennyLane (PL) and PyTorch.
 - **Description:** This Quantum Machine Learning (QML) workshop provides an introduction to Quantum Machine Learning using PennyLane and PyTorch, with hands-on exercises and take-home challenges. The workshop includes four practical sessions that cover the QML concepts, models, and techniques. The sessions explore development of quantum estimators and classifiers, their training with various optimisers, loss and cost functions, as well as model testing and scoring using variety of metrics. It finally, explains how to create hybrid quantum-classical QML models.
 - **Preparation:** Before attempting the workshop, we recommend to do some preparation first:
@@ -30,11 +30,11 @@
   - _**Session 3:**_ Quantum classifiers (intermediate)
   - _**Session 4:**_ Hybrid models and QAEs (advanced)
 - **Release Date:**
-  - _**October, 10 2025:**_ The final versions will be made available 1 day before the workshop
+  - _**March, 29 2026:**_ The final versions will be made available 1 day before the workshop
 - **Last Update:**
-  - _**September 21, 2025:**_ Compatibility updates with recent versions of PennyLane and Torch.
+  - _**March, 29 2025:**_ Compatibility updates with recent versions of PennyLane and Torch.
 
-### Important notebooks
+### Important notebooks <font color="red">(Draft)</font>
 
 You can play with these notebooks, enjoy!<br>
 Note however that they may be updated at any time!
