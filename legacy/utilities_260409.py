@@ -1,19 +1,13 @@
 # Support functions for QML Workshop
 # Author: Jacob Cybulski, ironfrown[at]gmail.com
 # Date: September 2024
-# Updated: April 2026
+# Updated: March 2025
 
 # Tested with:
-#   PennyLane                 0.40.0
-#   PennyLane_Lightning       0.40.0
-#   PennyLane_Lightning_GPU   0.40.0
+# PennyLane                 0.40.0
+# PennyLane_Lightning       0.40.0
+# PennyLane_Lightning_GPU   0.40.0
 
-# Now also compatible with...
-#   pennylane                 0.44.1
-#   pennylane_lightning       0.44.0
-#   torch                     2.11.0+cpu
-#   torchaudio                2.11.0
-#   torchvision               0.26.0+cpu
 
 import pylab
 import os
@@ -318,7 +312,7 @@ def multi_plot_series(
 #     'default', we can even use 'rcParams' to redefine all attributes
 #   level = None, 'user', 'top', 'device', 'gradient', 0, 1, ...
 def draw_circuit(circuit, fontsize=20, style='pennylane', 
-                 scale=None, title=None, decimals=2, level='user'):
+                 scale=None, title=None, decimals=2, level=None):
     def _draw_circuit(*args, **kwargs):
         nonlocal circuit, fontsize, style, scale, title, level
         qml.drawer.use_style(style)
