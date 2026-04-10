@@ -25,6 +25,7 @@
 - **Structure:** Two preliminary self-study topics and four workshop sessions over two days, i.e.
   - _**Explore 1:**_ Self study (preliminary)
   - _**Explore 2:**_ Self study (preliminary)
+  - _**Explore 3:**_ Self study (preliminary)
   - _**Session 1:**_ QML foundation (basic)
   - _**Session 2:**_ Quantum estimators (intermediate)
   - _**Session 3:**_ Quantum classifiers (intermediate)
@@ -34,7 +35,7 @@
 - **Last Update:**
   - _**March, 29 2025:**_ Compatibility updates with recent versions of PennyLane and Torch.
 
-### Important notebooks <font color="red">(Draft)</font>
+### Important notebooks
 
 You can play with these notebooks, enjoy!<br>
 Note however that they may be updated at any time!
@@ -57,6 +58,7 @@ Note however that they may be updated at any time!
 | | requirements.txt | A list of software needed for this workshop (for auto-install with *pip*) |
 
 ### Folders
+- _**data:**_ data files used during the workshop
 - _**notebooks:**_ all workshop notebooks can be found here
 - _**images:**_ some images appearing in notebooks (via a relative link)
 - _**legacy:**_ previous versions of files (in case you really really wanted them)
